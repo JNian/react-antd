@@ -1,0 +1,28 @@
+.nav-left {
+	overflow: hidden;
+	.logo {
+		padding: 15px;
+		width: 100%;
+		height: 80px;
+		background-color: #002140;
+		img {
+			width: 40px;
+			height: 40px;
+			vertical-align: middle;
+		}
+		h1 {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 0 0 10px;
+			color: #fff;
+		}
+	}
+	.menu {
+		overflow-y: auto;
+		height: calc(100vh - 80px);
+		&::-webkit-scrollbar {
+			width: 0px;
+			height: 0px;
+		}
+	}
+}
